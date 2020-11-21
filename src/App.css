@@ -12,14 +12,19 @@ body {
 
 .mapContainer {
   width: 40%;
-  padding-top: 2em; 
-  padding-left: 2em;
-  background-color: lightblue;
+  padding-top: 0em; 
+  padding-left: 0em;
+  /* background-color: lightblue; */
+}
+
+#info {
+  margin: 2px, 0, 0, 2px;
+  background-color: lightgray;
 }
 
 .quakeContainer {
   width: 40%;
   padding-top: 2em; 
   padding-right: 2em;
-  background-color: pink;
+  /* background-color: pink; */
 }

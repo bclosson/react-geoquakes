@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="app">
       <div className="mapContainer">
+        <h1>Location of Earthquakes</h1>
         <MapComponent />
       </div>
       <div className="quakeContainer">

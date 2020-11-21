@@ -64,22 +64,16 @@ class QuakesComponent extends React.Component {
       let currentTime = Date.now();
       let hoursSinceEvent = (currentTime - eventTime) / 3600000;
       let flooredHours = Math.floor(hoursSinceEvent);
+      let location = quake.geometry.coordinates;
+      // console.log(location);
       return <p key={quake.id}>{quake.properties.title} {flooredHours} Hours Ago </p>;
-
-      });
-  
+    });
+    
     return(
       <div>
-
-        <div>
-          <h1>Quakes</h1>
-        </div>
-
         <div id="info">
           { feature }
-          {/* { this.state.features[0].properties.title } */}
         </div>
-
       </div>
     );
   }
