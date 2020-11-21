@@ -34,7 +34,7 @@ class MapComponent extends React.Component {
       return <Marker
       position={ {lng:lng, lat:lat} }
       icon={{ url:earthquake,
-      anchor: new this.props.google.maps.Point({lng:lng, lat:lat}),
+      anchor: new this.props.google.maps.Point(0, 0),
       scaledSize: new this.props.google.maps.Size(37, 37) 
       }}
     />
